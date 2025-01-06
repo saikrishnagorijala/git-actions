@@ -5,4 +5,4 @@ jobs :
         runs-on : ubuntu-latest
         steps : 
             -   name : Show the Triggers
-                run : echo "this is an $((github.event_name)) event." 
+                run : echo "this is aa(n) ${{ github.event_name }} event." 
